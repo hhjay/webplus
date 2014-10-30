@@ -1,0 +1,642 @@
+body,table,ul,li{margin: 0px;padding: 0px;}
+html,button,input,select,textarea {color: #222;}
+html {font-size: 1em;}
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+hr {display: block;height: 1px;border: 0;border-top: 1px solid #ccc;margin: 1em 0;padding: 0;}
+audio,canvas,img,video {vertical-align: middle;}
+fieldset {border: 0;margin: 0;padding: 0;}
+textarea {resize: vertical;}
+h1, h2 {font-size: 19px;margin-bottom: 10px;}
+a {text-decoration: none;}
+ul li {font-size: 14px;}
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+}
+
+.header {
+    width: 100%;
+    background-color: #179140;
+    background-image: url(../img/bg-head-gradient.jpg);
+    background-repeat: repeat-x;
+}
+
+.logo img {
+    margin-top: 10px;
+    margin-left: 196px;
+}
+
+.nav {
+    position: relative;
+    width: 960px;
+    height: 25px;
+    margin: 20px auto 0px;
+    padding-top: 1px;
+    padding-right: 4px;
+    padding-bottom: 1px;
+    background-color: #15843c;
+
+}
+.nav tr td {
+    text-align: center;
+    position: relative;
+    padding-top: 3px;
+    padding-bottom: 2px;
+    
+}
+
+
+.nav tr td a {
+    padding: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/*.nav tr span td:hover {
+    background-color: #0f5929;
+}*/
+
+#main {
+    width: 100%;
+    min-height: 642px;
+    background-image: url(../img/bg_page.png);
+    background-repeat: no-repeat;
+    background-color: #fdfdfd;
+    background-position: center top;
+    overflow: hidden;
+}
+
+#content-wrapper {
+    width: 960px;
+    height: 640px;
+    margin: 0px auto;
+    clear: both;
+    /*background: #aaa;*/
+}
+.content{
+    width: 545px;
+    float: left;
+    margin-top: 7px;
+}
+#container_page {
+  width: 100%;
+  text-align: left;
+  min-height: 100%;
+  margin: 0px auto;
+  background-color: #fff;
+}
+#container_content {
+  width: 960px;
+  padding: 0px;
+  clear: both;
+  margin: 0px auto;
+  background-color: #FFF;
+}
+
+.new-col {
+    width: 545px;
+    height: 231px;
+    margin-bottom: 30px;
+    
+}
+
+.new-list {
+   margin-top: 6px;
+   padding-left: 8px;
+}
+
+.new-list a {
+  color: #000;
+}
+.list-img{
+  width: 3px;
+  height: 5px;
+  float: left;
+  padding-top: 9px;
+}
+.list-a{
+  width: 400px;
+  float: left;
+  padding-left: 5px;
+  letter-spacing: 1px;
+}
+.list-b{
+  width: 260px;
+  float: left;
+  padding-left: 5px;
+}
+.new-list em{
+  width: 90px;
+  display: block;
+  float: right;
+  text-align: right;
+}
+#newslist{
+  width: 100%;
+  min-height: 550px
+}
+
+
+.new-list li {
+  width: 100%;
+  height: 23px;
+  line-height: 22px;
+  list-style: none; 
+  padding-top: 2px;
+}
+
+.new-list li a:hover {
+  text-decoration: underline;
+}
+
+.two-col {
+  width: 545px;
+}
+
+.message-col {
+     width: 290px;
+     float: left;
+     margin-top: 9px;
+     margin-left: 16px;
+}
+
+.message-title {
+    position: relative;
+    margin-left: 6px;
+    border-bottom: 1px solid #8f8f8f;
+}
+
+.message-title h2 {
+   margin-top: 10px;
+   margin-bottom: 0;
+   background-image: url(../img/title-bg3.png);
+   background-repeat: no-repeat;
+}
+
+.message-title a {
+  color: #000;
+  position: absolute;
+  left: 240px; 
+  top: 3px; 
+}
+
+.message-list {
+    list-style: none;
+    margin-top: 6px;
+    padding-left: 5px;
+}
+
+.message-list  li {
+  letter-spacing: 1px;
+  line-height: 22px;
+  list-style: none;
+  background-image: url(../img/icon_li.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 7px;
+  padding-top: 5px;
+
+}
+
+.message-list li a:hover {
+    text-decoration: underline;
+}
+
+.message-list li a {
+    color: #000;
+    padding: 4px;
+}
+
+.contact-col {
+    width: 234px;
+    background-color: #e6e6e6;
+    border-radius: 5px;
+    margin-top: 16px;
+    margin-left: 5px;
+    padding-bottom: 1px;
+    float: left;
+}
+
+.contact {
+    width: 220px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.contact-list {
+    list-style: none;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
+
+.contact-list li {
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.account-col {
+    width: 365px;
+    margin-bottom: 35px;
+}
+
+.account-list {
+  height: 231px;
+   padding-left: 10px; 
+}
+
+.account-list li {
+    width: 100%;
+    height: 23px;
+    line-height: 22px;
+    list-style: none;
+    padding-top: 2px;
+}
+.account-list em{
+     width: 85px;
+  display: block;
+  float: right;
+  text-align: right;
+}
+
+.account-list li a {
+  color: #000;
+}
+
+.account-list li a:hover {
+  text-decoration: underline;
+}
+
+.entrance {
+   width: 365px;
+   margin-bottom: 30px;   
+}
+
+.entrance img {
+  padding: 0;
+  margin: 0;
+}
+
+.link-col {
+   width: 365px;
+   margin-top: 47px; 
+}
+
+.link-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.link-list li {
+    width: auto;
+    display: block;
+    float: left;
+    margin-top: 2px;
+    font-size: 17px;
+    border-right: 1px solid #B3AFAF;
+    padding-left: 4px;
+    padding-right: 9px;
+}
+
+.link-list li:last-child {
+    border: none;
+}
+
+.link-list li a {
+    color: #000;
+}
+
+.link-list a:hover {
+  text-decoration: underline;
+}
+
+.link-col h2 {
+    background-image: url(../img/title-bg3.png);
+    background-repeat: no-repeat;
+}
+
+.title-col {
+   position: relative;
+   margin-left: 6px;
+   border-bottom: 1px solid #8f8f8f;
+}
+
+.title-col h2 {
+  background-image: url(../img/title-bg3.png);
+  background-repeat: no-repeat;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.title-col a {
+  display: inline;
+  color: #000;
+  position: absolute;
+  left: 495px; 
+  top: 3px; 
+}
+
+.more-new {
+  width: 20px;
+  float: left;
+}
+
+.more-new img {
+  position: absolute;
+  top: 5px;
+}
+
+.icon-more {
+  display: inline;
+  float: right;
+}
+
+#infocontent{
+  height: 610px;
+}
+
+.adjust a {
+    left: 315px;
+}
+
+.STYLE4 {
+  font-size: 10px;
+  text-align: left;
+  margin-left: 9px;
+} 
+
+.STYLE25 {
+  background-image: url(../img/icon_li.jpg);
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 7px;
+}
+
+.style_list {
+  font-size: 14px;
+  font-weight: bold;
+  margin-left: 9px;
+}
+.zi14{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    text-decoration: none;
+}
+
+.aside {
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+   
+}
+
+.xz-list {
+   width: 365px;
+   height: 48px;
+   margin-top: 10px;
+   padding-left: 10px;
+   font-size: 14px;
+   line-height: 22px;
+}
+
+.xz-list tr td div {
+   margin-left: 28px;
+   font-style: italic;
+}
+
+.xz-list a {
+  color: #000;
+}
+
+
+.footer {
+    clear: both;
+}
+
+.footer-inner {
+    border-top: 1px solid #e7e7e7; 
+    text-align: center;
+    font-size: 12px;
+    color: #8f8f8f;
+
+}
+
+.footer-inner a {
+    color: #8f8f8f;
+    cursor: pointer;
+}
+
+
+/*=============================the style of apply form==========================*/
+.ui-widget-content {
+  background-color: #ffffff;
+}
+
+.form1 {
+  font-size: 12px;
+}
+
+.btn_submit {
+  width: 80px;
+  height: 30px;
+  border: 0;
+  background-image: url(../img/sq_18.jpg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.btn_reset {
+  width: 80px;
+  height: 30px;
+  border: 0;
+  background-image: url(../img/sq_20.jpg);
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+ */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+ */
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+ */
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+ */
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+ */
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+
+.clearfix {
+    *zoom: 1;
+}
+

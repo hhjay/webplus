@@ -1,0 +1,216 @@
+
+/******************************棣栭〉**************************************/
+
+*{
+	margin:0;
+	padding:0;
+	color:#000000;
+}
+div{
+	margin:0;
+	padding:0;
+	}
+a{text-decoration:none;}
+li{list-style-type:none;}
+body{width:100%;
+	height:auto;
+	background:#c0c0c0;
+}
+#main{width:960px;
+	height:auto;
+	background:#FFFFFF;
+	margin:0 auto;
+}
+#main-1{width:960px;
+	height:auto;
+	float:right;
+	background:#FFFFFF;
+}
+#top{width:960px;
+	height:197px;
+	background:url(imgs/top.jpg);
+}
+#topdown{width:960px;
+	height:10px;
+	background-color:#cfcfd1;
+}
+#nav{width:960px;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+	color:#FFFFFF;
+	background:#009242;
+}
+#nav td{font-size:18px;
+	color:#FFFFFF;
+	text-align:center;
+	line-height:40px;
+	font-weight:600px;
+}
+#nav a{color:#FFFFFF;}
+#right{width:330px;
+	height:auto;
+	margin-top:20px;
+	float:right;
+}
+#tongzhi{width:310px;
+	height:37px;
+	background:url(imgs/tz.jpg) no-repeat;
+}
+#text-r{width:310px;
+	height:auto;
+}
+#text-r td{width:auto;
+	height:25px;
+	line-height:25px;
+	font-size:12px;
+}
+#xinxi{width:310px;
+	height:35px;
+	background:url(imgs/xx.jpg) no-repeat;
+}
+#guizhang{width:310px;
+	height:37px;
+	background:url(imgs/gz.jpg) no-repeat;
+}
+#xuesheng{width:310px;
+	height:35px;
+	background:url(imgs/xuexi.jpg) no-repeat;
+}
+#center{width:400px;
+	height:auto;
+	margin-top:20px;
+	float:right;
+}
+#tupian{width:380px;
+	height:250px;
+}
+#xinwen{width:380px;
+	height:35px;
+	background:url(imgs/xw.jpg);
+}
+#dangjian{width:380px;
+	height:35px;
+	background:url(imgs/dj.jpg);
+}
+#fazhan{width:380px;
+	height:35px;
+	background:url(imgs/fz.jpg);
+}
+#text-c{width:380px;
+	height:auto;
+}
+#text-c td{width:auto;
+	height:25px;
+	line-height:25px;
+	font-size:12px;
+}
+#left{width:210px;
+	height:780px;
+	margin-top:20px;
+	float:right;
+}
+#neishe{width:190px;
+	height:35px;
+	background:url(imgs/ns.jpg);
+}
+#fuwu{width:190px;
+	height:35px;
+	background:url(imgs/fw.jpg);
+}
+#text-f{width:190px;
+	height:215px;
+}
+#text-f td{width:auto;
+	height:25px;
+	line-height:25px;
+	font-size:12px;
+}
+#wannianli{width:210px;
+	height:auto;
+	padding-top:20px;
+}
+#bottom{width:960px;
+	height:auto;
+	float:right;	
+}
+#youqing{width:960px;
+	height:35px;
+	background:url(imgs/lianjie.jpg);
+}
+#lianjie{width:960px;
+	height:60px;
+	background:#cbcbcd;
+}
+#jz{width:960px;
+	height:80px;
+	line-height:40px;
+	text-align:center;
+	background:#cbcbcd;
+}
+
+/**************************************鍒楄〃椤�********************************/
+
+#container{width:960px;
+	height:auto;
+}
+#db{width:960px;
+	height:25px;
+	font-size:12px;
+	color:#222222; 
+	padding-left:30px;
+	line-height:20px;
+	
+}
+#dbr{width:710px;
+	min-height:500px;
+	float:right;
+}
+#dbl{width:230px;
+	height:500px;
+	float:right;
+}
+#container-f{width:210px;
+	height:240px;
+	background:#FFFFFF;
+}
+#bder{width:210px;
+	height:280px;
+	border: 1px solid #c6c4c5;
+	background:#f7f9fa;
+}
+#page{width:960px;
+	height:25px;
+	font-size:12px;
+	color:#222222; 
+	padding-left:30px;
+	line-height:20px;
+}
+#pager{width:690px;
+	height:auto;
+	float:right;
+	border: 1px solid #c6c4c5;
+	margin-right:20px;
+}
+#pagel{width:230px;
+	height:500px;
+	float:right;
+}
+
+#content-wrapper {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.biaoti3 {
+	font-size: 19px;
+	font-weight: bold;
+}
+
+.title-left {
+	padding-left: 12px;
+}
+
+#newslist {
+	font-size: 14px;
+}
