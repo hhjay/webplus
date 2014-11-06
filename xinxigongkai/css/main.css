@@ -279,7 +279,7 @@ ul li {font-size: 14px;}
   background-repeat: no-repeat;
   background-position: left;
   padding-left: 7px;
-  padding-top: 5px;
+  padding-top: 2px;
 
 }
 
@@ -370,29 +370,33 @@ ul li {font-size: 14px;}
 
 .link-col {
    width: 365px; 
+   height: 150px;
 }
 
 .link-list {
+    width: 365px;
+    height: 115px;
     list-style: none;
     padding-left: 0;
 }
 
 .link-list li {
     width: auto;
+    min-width: 60px;
     display: block;
     float: left;
-    margin-top: 2px;
-    font-size: 17px;
+    margin-top: 12px;
+    font-size: 15px;
     border-right: 1px solid #B3AFAF;
     padding-left: 4px;
-    padding-right: 9px;
+    padding-right: 4px;
 }
 
 .link-list li:last-child {
     border: none;
 }
 
-.link-list li a {
+.link-list  a {
     color: #000;
 }
 
@@ -404,6 +408,7 @@ ul li {font-size: 14px;}
     background-image: url(../img/title-bg3.png);
     background-repeat: no-repeat;
     border-bottom: 1px solid #8f8f8f;
+    margin-bottom: 0;
 }
 
 .title-col {
@@ -485,7 +490,7 @@ ul li {font-size: 14px;}
 .xz-list {
    width: 365px;
    height: 48px;
-   margin-top: 10px;
+   margin-top: 6px;
    padding-left: 10px;
    font-size: 14px;
    line-height: 22px;
@@ -501,7 +506,9 @@ ul li {font-size: 14px;}
   float: left;
   color: #222;
 }
-
+.xz-list a:hover {
+  text-decoration: underline;
+}
 
 .footer {
     clear: both;
